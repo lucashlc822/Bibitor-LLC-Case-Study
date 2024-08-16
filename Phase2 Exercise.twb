@@ -1,0 +1,692 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0618.0924                               -->
+<workbook original-version='18.1' source-build='2024.1.4 (20241.24.0618.0924)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <SavingAnalyticObjects />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Phase 2 prep Exercise Table' inline='true' name='federated.04y0zi50d0qnzg1a1ts401wnrfrf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Phase 2 prep Exercise Table' name='textscan.1v8nv061ksgl0c1dux67g0pzvlwc'>
+            <connection class='textscan' directory='C:/Users/lulou/OneDrive/Data Analytics/Case Studies/PWC Sample Case Study' filename='Phase 2 prep Exercise Table.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1v8nv061ksgl0c1dux67g0pzvlwc' name='Phase 2 prep Exercise Table.csv' table='[Phase 2 prep Exercise Table#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='Brand' ordinal='0' />
+            <column datatype='integer' name='Store' ordinal='1' />
+            <column datatype='real' name='moving_average_cost' ordinal='2' />
+            <column datatype='integer' name='onHand' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='Size' ordinal='5' />
+            <column datatype='real' name='Price' ordinal='6' />
+            <column datatype='real' name='difference' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1v8nv061ksgl0c1dux67g0pzvlwc' name='Phase 2 prep Exercise Table.csv' table='[Phase 2 prep Exercise Table#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='Brand' ordinal='0' />
+            <column datatype='integer' name='Store' ordinal='1' />
+            <column datatype='real' name='moving_average_cost' ordinal='2' />
+            <column datatype='integer' name='onHand' ordinal='3' />
+            <column datatype='string' name='City' ordinal='4' />
+            <column datatype='string' name='Size' ordinal='5' />
+            <column datatype='real' name='Price' ordinal='6' />
+            <column datatype='real' name='difference' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Store</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Store]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>Store</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>moving_average_cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[moving_average_cost]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>moving_average_cost</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>onHand</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[onHand]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>onHand</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Size]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>Size</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>Price</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>difference</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[difference]</local-name>
+            <parent-name>[Phase 2 prep Exercise Table.csv]</parent-name>
+            <remote-alias>difference</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Phase 2 prep Exercise Table.csv' datatype='table' name='[__tableau_internal_object_id__].[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]' role='measure' type='quantitative' />
+      <column caption='Difference' datatype='real' name='[difference]' role='measure' type='quantitative' />
+      <column caption='Moving Average Cost' datatype='real' name='[moving_average_cost]' role='measure' type='quantitative' />
+      <column caption='On Hand' datatype='integer' name='[onHand]' role='measure' type='quantitative' />
+      <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[difference]' derivation='Sum' name='[sum:difference:qk]' pivot='key' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/lulou/AppData/Local/Temp/TableauTemp/#TableauTemp_17mxe240cxceoq1102wx803jhcx5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/01/2024 01:52:02 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Brand</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brand</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9944</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Store</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Store]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Store</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>86</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>moving_average_cost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[moving_average_cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>moving_average_cost</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2890</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>onHand</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[onHand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>onHand</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>423</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>75</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Size</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RGB' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Price</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>360</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>difference</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[difference]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>difference</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Phase 2 prep Exercise Table.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2983</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <analytic-model>
+        <name>
+          <field name='[AnalyticModel:{fa6e33f8-8ed9-4219-8526-6db18ea1a27e}]' />
+        </name>
+        <analytic-model-specifications class='cluster-specifications'>
+          <analysis-fields>
+            <field name='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[sum:difference:qk]' />
+            <field name='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[sum:Price:qk]' />
+          </analysis-fields>
+          <filter-fields />
+          <lod-fields />
+          <number-of-desired-clusters>3</number-of-desired-clusters>
+          <is-dissagregate>false</is-dissagregate>
+        </analytic-model-specifications>
+        <result-fields />
+      </analytic-model>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Phase 2 prep Exercise Table.csv' id='Phase 2 prep Exercise Table.csv_F3EBAA59C8B14C4B9F25A6268E5B9111'>
+            <properties context=''>
+              <relation connection='textscan.1v8nv061ksgl0c1dux67g0pzvlwc' name='Phase 2 prep Exercise Table.csv' table='[Phase 2 prep Exercise Table#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='Brand' ordinal='0' />
+                  <column datatype='integer' name='Store' ordinal='1' />
+                  <column datatype='real' name='moving_average_cost' ordinal='2' />
+                  <column datatype='integer' name='onHand' ordinal='3' />
+                  <column datatype='string' name='City' ordinal='4' />
+                  <column datatype='string' name='Size' ordinal='5' />
+                  <column datatype='real' name='Price' ordinal='6' />
+                  <column datatype='real' name='difference' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Phase 2 prep Exercise Table' name='federated.04y0zi50d0qnzg1a1ts401wnrfrf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04y0zi50d0qnzg1a1ts401wnrfrf'>
+            <column auto-hidden='true' caption='Clusters' datatype='integer' hidden='true' is-adhoc-cluster='true' name='[AdhocCluster:1]' parent-model='[AnalyticModel:{fa6e33f8-8ed9-4219-8526-6db18ea1a27e}]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='-1' value='Cluster Outliers' />
+                <alias key='0' value='Not Clustered' />
+                <alias key='1' value='Cluster 1' />
+                <alias key='2' value='Cluster 2' />
+                <alias key='3' value='Cluster 3' />
+                <alias key='4' value='Cluster 4' />
+                <alias key='5' value='Cluster 5' />
+                <alias key='6' value='Cluster 6' />
+                <alias key='7' value='Cluster 7' />
+                <alias key='8' value='Cluster 8' />
+                <alias key='9' value='Cluster 9' />
+                <alias key='10' value='Cluster 10' />
+                <alias key='11' value='Cluster 11' />
+                <alias key='12' value='Cluster 12' />
+                <alias key='13' value='Cluster 13' />
+                <alias key='14' value='Cluster 14' />
+                <alias key='15' value='Cluster 15' />
+                <alias key='16' value='Cluster 16' />
+                <alias key='17' value='Cluster 17' />
+                <alias key='18' value='Cluster 18' />
+                <alias key='19' value='Cluster 19' />
+                <alias key='20' value='Cluster 20' />
+                <alias key='21' value='Cluster 21' />
+                <alias key='22' value='Cluster 22' />
+                <alias key='23' value='Cluster 23' />
+                <alias key='24' value='Cluster 24' />
+                <alias key='25' value='Cluster 25' />
+                <alias key='26' value='Cluster 26' />
+                <alias key='27' value='Cluster 27' />
+                <alias key='28' value='Cluster 28' />
+                <alias key='29' value='Cluster 29' />
+                <alias key='30' value='Cluster 30' />
+                <alias key='31' value='Cluster 31' />
+                <alias key='32' value='Cluster 32' />
+                <alias key='33' value='Cluster 33' />
+                <alias key='34' value='Cluster 34' />
+                <alias key='35' value='Cluster 35' />
+                <alias key='36' value='Cluster 36' />
+                <alias key='37' value='Cluster 37' />
+                <alias key='38' value='Cluster 38' />
+                <alias key='39' value='Cluster 39' />
+                <alias key='40' value='Cluster 40' />
+                <alias key='41' value='Cluster 41' />
+                <alias key='42' value='Cluster 42' />
+                <alias key='43' value='Cluster 43' />
+                <alias key='44' value='Cluster 44' />
+                <alias key='45' value='Cluster 45' />
+                <alias key='46' value='Cluster 46' />
+                <alias key='47' value='Cluster 47' />
+                <alias key='48' value='Cluster 48' />
+                <alias key='49' value='Cluster 49' />
+                <alias key='50' value='Cluster 50' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[Price]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Store]' role='measure' type='quantitative' />
+            <column caption='Difference' datatype='real' name='[difference]' role='measure' type='quantitative' />
+            <column-instance column='[AdhocCluster:1]' derivation='None' is-adhoc-cluster='true' name='[none:AdhocCluster:1:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Store]' derivation='None' name='[none:Store:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Price]' derivation='Sum' name='[sum:Price:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[difference]' derivation='Sum' name='[sum:difference:qk]' pivot='key' type='quantitative' />
+            <style>
+              <style-rule element='mark'>
+                <encoding attr='color' field='[none:AdhocCluster:1:ok]' type='palette'>
+                  <map to='#4e79a7'>
+                    <bucket>1</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>2</bucket>
+                  </map>
+                  <map to='#59a14f'>
+                    <bucket>5</bucket>
+                  </map>
+                  <map to='#76b7b2'>
+                    <bucket>4</bucket>
+                  </map>
+                  <map to='#e15759'>
+                    <bucket>3</bucket>
+                  </map>
+                </encoding>
+              </style-rule>
+            </style>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:Store:qk]' included-values='in-range'>
+            <max>5</max>
+          </filter>
+          <slices>
+            <column>[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:Store:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:AdhocCluster:1:ok]' />
+              <size column='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[sum:difference:qk]' />
+              <text column='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:Store:qk]' />
+              <lod column='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[sum:Price:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DE3DFD63-E6F1-4EE6-AB9F-5156E97CF39F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:AdhocCluster:1:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:AdhocCluster:1:ok]</field>
+            <field>[federated.04y0zi50d0qnzg1a1ts401wnrfrf].[none:Store:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7DEB61AC-367E-4805-A17B-C7C009136624}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      0s8AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
