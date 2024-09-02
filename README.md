@@ -5,5 +5,5 @@ Bibitor has asked the team to complete due diligence on their wine and spirits b
 For this analysis, we decided to use SQLite (SQLite DB Browser) to query and analyze the data. We used Tableau for data visualization.
 # Dashboard access
 A dashboard was created and published to Tableau Public. Click [here](https://public.tableau.com/app/profile/lucas.chung/viz/Phase2Dashboard_17237726176710/Main) to view the visualizations.
-#References
+# References
 Case Study Guidelines and data provided by PWC. Link to the information [here](https://www.pwc.com/us/en/careers/university-relations/data-and-analytics-case-studies-files.html).
